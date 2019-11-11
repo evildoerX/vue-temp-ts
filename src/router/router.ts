@@ -4,6 +4,12 @@
  * @param {boolean} keepAlive 是否缓存页面
  * @param {string} title 页面标题
  */
-export const appRouter = [];
+export const appRouter = [
+  {
+    path: "/",
+    name: "Home",
+    component: () => import("@/views/Home.vue")
+  }
+];
 
 export const routes = [...appRouter];
