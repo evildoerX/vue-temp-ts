@@ -1,1 +1,1 @@
-`vue init vue-temp-ts projectName`
+`vue init evildoerX/vue-temp-ts projectName`
